@@ -1,0 +1,99 @@
+.arrivals{
+    position: relative;
+}
+
+// .carousel{
+//     z-index: 2;
+    
+// }
+
+.desc{
+    border: 1px solid $grey;
+    padding-bottom: 64px;
+    margin-bottom: 129px;
+    margin-top: -50px;
+    z-index: 0;
+    position: relative;
+    background-color: $white;
+}
+
+.desc__title{
+    text-transform: uppercase;
+    color: $dark-pink;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding: 64px 0 12px 0;
+}
+
+.desc__hr_pink{
+    color: $dark-pink;
+    padding-bottom: 3px;
+    width: 10%; 
+    margin: 0 45% 0 45%;
+}
+
+.desc__subtitle{
+    text-transform: uppercase;
+    color: $grey;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding: 12px 0 48px 0;
+}
+
+.desc__text{
+    width: 57%;
+    margin: 0 21% 0 21%;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: $grey;
+    padding-bottom: 32px;
+}
+
+.desc__text_pink{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: $dark-pink;
+    text-align: center;
+    padding-bottom: 65px;
+}
+
+.desc__hr{
+    color: $grey;
+    width: 60%;
+    margin: 0 20% 0 20%;
+
+}
+
+.desc__box{
+    display: flex;
+    margin-top: 65px;
+    margin-bottom: 48px;
+    justify-content: center;
+}
+
+.btn-outline-primary{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.card-price{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 18px;
+    color: $dark-pink;
+}
+
+.additionally{
+    margin-bottom: 128px;
+}

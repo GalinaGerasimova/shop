@@ -2,6 +2,12 @@
     background-color: $pink;
     margin-bottom: 64px;
   }
+
+.headline__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
   
   .headline__title{
     text-transform: uppercase;
@@ -10,6 +16,19 @@
     line-height: 29px;
     font-weight: normal;
     padding: 60px 0;
+  }
+
+  .headline__text{
+    text-transform: uppercase;
+    color: $grey;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px
+  }
+
+  .headline__text_pink{
+    color: $dark-pink;
   }
 
   @media (max-width: $tablet-width){
@@ -25,6 +44,19 @@
 
   .headline__title{
     text-align: center;
+  }
+
+  .headline__container{
+    display: inline;
+  }
+
+  .headline__title{
+    padding: 24px 0 32px 0;
+  }
+
+  .headline__text{
+  padding-bottom: 46px;
+  text-align: center;
   }
 }
 

@@ -149,6 +149,11 @@
     padding: 1px 9px;
     margin-left: 24px;
   }
+
+  .cart__hr{
+    border: 1px solid $dark-white;
+    width: 275px;
+  }
   
   .cart__form-button:hover,
   .cart__form-button:focus {
