@@ -1,0 +1,92 @@
+.registration{
+    display: flex;
+  }
+  
+  .registration__title{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 20px;
+  }
+  
+  .registration__input{
+    width: 360px;
+    height: 45px;
+    margin-bottom: 20px;
+    padding-left: 16px;
+    border: 1px solid #A4A4A4;
+    color: $dark-pink;
+  }
+  
+  .registration__title_visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+  
+  .registration__radio{
+    margin: 13px 10px 30px 0;
+    border: 1px solid #A4A4A4;
+  }
+  
+  .registration__radio-female{
+    margin-left: 20px;
+  }
+  
+  .registration__text{
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    width: 360px;
+    padding-bottom: 39px;
+  }
+  
+  .registration__button{
+    background-color: $dark-pink;
+    padding: 16px 30px;
+    text-transform: uppercase;
+    color: $white;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: normal;
+    margin-bottom: 96px;
+  }
+  
+  .registration__button:hover,
+  .registration__button:focus {
+    opacity: 0.5;
+    cursor: pointer;
+    outline: none;
+  }
+    
+  .registration__button:active {
+    opacity: 0.7;
+  }
+
+  @media (max-width: $mobile-width){
+    .registration{
+      flex-direction: column;
+    }
+
+    .registration__button{
+      margin-bottom: 40px;
+    }
+
+    .registration__input{
+      width: 100%;
+      max-width: 360px;
+    }
+
+    .registration__text{
+      width: 100%;
+      max-width: 360px;
+    }
+  }

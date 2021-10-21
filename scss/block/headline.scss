@@ -1,0 +1,30 @@
+.headline{
+    background-color: $pink;
+    margin-bottom: 64px;
+  }
+  
+  .headline__title{
+    text-transform: uppercase;
+    color: $dark-pink;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: normal;
+    padding: 60px 0;
+  }
+
+  @media (max-width: $tablet-width){
+    .headline{
+      margin-bottom: 40px;
+  }
+}
+
+@media (max-width: $mobile-width){
+  .headline{
+    margin-bottom: 40px;
+  }
+
+  .headline__title{
+    text-align: center;
+  }
+}
+

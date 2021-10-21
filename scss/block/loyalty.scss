@@ -1,0 +1,70 @@
+.loyalty{
+    padding-left: 128px;
+  }
+  
+  .loyalty__title{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 22px;
+  }
+  
+  .loyalty__text{
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 21px;
+  }
+  
+  .loyalty__list{
+    margin: 0;
+    list-style: none;
+  }
+  
+  .loyalty__item{
+    position: relative;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 0 0 16px 23px;
+    margin-left: 28px;
+  }
+  
+  .loyalty__item:before {
+    content: '';
+    width: 20px;
+    height: 16px;
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    background-image: url(../img/check.svg);
+    background-size: 20px 16px;
+  }
+
+  @media (max-width: $tablet-width){
+    .loyalty{
+      padding-left: 22px;
+    }
+
+    .loyalty__title{
+      font-size: 16px;
+      line-height: 19px;
+      padding-bottom: 32px;
+    }
+
+    .loyalty__text{
+      font-size: 16px;
+      line-height: 19px;
+    }
+
+    .loyalty__item{
+      font-size: 16px;
+      line-height: 19px;
+    }
+}
+
+@media (max-width: $mobile-width){
+  .loyalty{
+    padding-left: 0px;
+    margin-bottom: 100px;
+  }
+}

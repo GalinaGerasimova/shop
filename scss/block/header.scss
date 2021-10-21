@@ -1,0 +1,187 @@
+.header {
+background-color: $black;
+position: relative;
+}
+
+.header__container {
+display: flex;
+align-items: center;
+min-height: 75px;
+justify-content: space-between;
+}
+
+.header__box {
+display: flex;
+align-items: center;
+}
+
+.header__logo {
+margin: 0 41px 0 0;
+}
+
+.header__ico {
+margin: 0 0 0 33px;
+}
+
+.header__button {
+border: none;
+background-color: transparent;
+}
+
+.header__ico:hover,
+.header__ico:focus {
+background:  $pink;
+cursor: pointer;
+}
+
+.header__ico:hover .icon,
+.header__ico:focus .icon {
+fill: $black;
+}
+
+.header__ico:active .icon {
+fill: $dark-pink;
+}
+
+.header__form{
+position: relative;
+transition: all 1s;
+width: 50px;
+height: 50px;
+box-sizing: border-box;
+border-radius: 25px;
+padding: 5px;
+}
+
+.header__form-input{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;;
+height: 42.5px;
+line-height: 30px;
+outline: 0;
+border: 0;
+display: none;
+font-size: 1em;
+border-radius: 20px;
+padding: 0 20px;
+}
+
+.header__form-button{
+background-color: transparent;
+box-sizing: border-box;
+padding: 10px;
+width: 42.5px;
+height: 42.5px;
+position: absolute;
+top: 0;
+right: 0;
+border: none;
+color: $black;
+transition: all 1s;
+}
+
+.header__form:hover{
+width: 200px;
+cursor: pointer;
+}
+
+.header__form:hover input{
+display: block;
+}
+
+.header__menu {
+position: absolute;
+width: 80px;
+top: 100%;
+right: 0;
+background: $white;
+display: none;
+width: 232px;
+height: 765px;
+}
+
+.header__menu-list {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+
+.header__menu-button {
+border: none;
+background: transparent;
+padding-top: 16px;
+float: right;
+}
+
+.header__title{
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+padding: 37px 0 4px 34px;
+}
+
+.menu-sub-item__title{
+padding-left: 33px;
+padding-bottom: 12px;
+padding-top: 20px;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: $dark-pink;
+text-transform: uppercase;
+}
+
+.menu-sub-item__item{
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-decoration: none;
+color: $grey;
+padding-left: 54px;
+padding-bottom: 11px;
+}
+
+.menu-sub-item__list {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+.menu-sub-item__item {
+color: $grey;
+text-decoration: none;
+}
+
+.menu-sub-item__item:hover {
+cursor: pointer;
+}
+
+.header__button:hover +.header__menu,
+.header__button:focus +.header__menu {
+display: block;
+}
+
+.header__menu:hover {
+display: block;
+}
+
+.header__menu-button:hover,
+.header__menu-button:focus {
+  opacity: 0.5;
+  cursor: pointer;
+  outline: none;
+}
+  
+.header__menu-button:active {
+  opacity: 0.7;
+}
+
+@media (max-width: $mobile-width){
+  .ico_display-none{
+    display: none;
+  }
+} 

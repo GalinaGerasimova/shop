@@ -1,0 +1,92 @@
+body {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.container {
+    max-width: 71%;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+[type="text"]:hover,
+[type="text"]:focus {
+  outline: 1px solid $dark-pink;
+  background: white;
+  cursor: pointer;
+}
+
+[type="email"]:hover,
+[type="email"]:focus {
+  outline: 1px solid $dark-pink;
+  background: white;
+  cursor: pointer;
+}
+
+[type="password"]:hover,
+[type="password"]:focus {
+  outline: 1px solid $dark-pink;
+  background: white;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {color: #B1B1B1;}
+::-moz-placeholder          {color: #B1B1B1;}/* Firefox 19+ */
+:-moz-placeholder           {color: #B1B1B1;}/* Firefox 18- */
+:-ms-input-placeholder      {color: #B1B1B1;}
+
+
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+
+.button-icon {
+    background: $black;
+    border: none;
+}
+
+.icon {
+    fill: $white;
+}
+
+hr{
+    border: 1px solid $dark-white;
+    width: 275px;
+  }
+
+@media (max-width: $tablet-width) { 
+  .container{
+    width: 96%;
+  }
+}
+
+@media (max-width: $mobile-width) { 
+  .container{
+    width: 83%;
+  }
+
+  hr{
+    max-width: 275px;
+    width: 70%;
+
+  }
+}
+
+
