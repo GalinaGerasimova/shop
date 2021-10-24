@@ -745,8 +745,7 @@ body {
   .footer-socials__copy {
     padding: 40px 0 9px 0; } }
 .headline {
-  background-color: #F1E4E6;
-  margin-bottom: 64px; }
+  background-color: #F1E4E6; }
 
 .headline__container {
   display: flex;
@@ -792,7 +791,8 @@ body {
     padding-bottom: 46px;
     text-align: center; } }
 .registration {
-  display: flex; }
+  display: flex;
+  margin-top: 64px; }
 
 .registration__title {
   font-weight: 300;
@@ -926,7 +926,7 @@ body {
     margin-bottom: 100px; } }
 .cart {
   display: flex;
-  padding-top: 32px; }
+  padding-top: 96px; }
 
 .cart__item {
   display: flex;
