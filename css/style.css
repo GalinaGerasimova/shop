@@ -475,6 +475,9 @@ body {
   margin: auto;
   display: block; }
 
+.product__link {
+  text-decoration: none; }
+
 .product__item-button {
   position: absolute;
   top: 50%;
